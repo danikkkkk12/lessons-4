@@ -4,8 +4,9 @@
     --background-color:#2F303A;
     --second-color:#757575;
     --section-color:#F5F4FA;
-    --logo-color:color:rgba(255, 255, 255, 0.60);
-    --main-background-color::rgba(33, 33, 33, 1);
+    --logo-color:rgba(255, 255, 255, 0.60);
+    --main-background-color:rgba(33, 33, 33, 1);
+    --team-color:rgba(0, 0, 0, 100%);
 
 }
 .active{
