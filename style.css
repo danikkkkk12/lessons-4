@@ -12,3 +12,30 @@
 .active{
     color:var(--accent-color)
 }
+nav{
+    font-family: 'Roboto', sans-serif;
+}
+.title-header{
+    font-family: 'Raleway', sans-serif;
+}
+.title-main{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+}
+.main-paragraph{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+.name-main{
+    font-family: 'Roboto', sans-serif;
+}
+.footer-addres{
+    font-family: 'Roboto', sans-serif;
+}
