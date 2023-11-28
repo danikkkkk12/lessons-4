@@ -9,6 +9,18 @@
     --team-color:rgba(0, 0, 0, 100%);
 
 }
+.info-header{
+    list-style: none;
+}
+.one-main{
+    list-style: none;
+}
+.main-images{
+    list-style: none;
+}
+.images-main{
+    list-style: none;
+}
 .active{
     color:var(--accent-color)
 }
