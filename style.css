@@ -19,10 +19,13 @@ a{
     color: var(--team-last-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+
     
 }
 .header-list{
     list-style: none;
+    justify-content: first baseli;
+    display: flex;
 }
 .nav-mail{
     color: var(--accent-color);
