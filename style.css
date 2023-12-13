@@ -24,8 +24,6 @@ a{
 }
 .header-list{
     list-style: none;
-    justify-content: first baseli;
-    display: flex;
 }
 .nav-mail{
     color: var(--accent-color);
