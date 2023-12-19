@@ -118,3 +118,8 @@ a{
     font-size: 14px;
     line-height: 171%;
 }
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+}
