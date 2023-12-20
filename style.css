@@ -12,6 +12,7 @@
 a{
     text-decoration: none;
 }
+
 .header-span{
     color: var(--accent-color);
 }
@@ -124,4 +125,5 @@ a{
     padding: 15px;
     outline: 2px solid red;
 }
+
 
