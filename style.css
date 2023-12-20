@@ -50,14 +50,24 @@ a{
 .title{
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
+    background-color: var(--background-color);
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 280px;
+    text-align: center;
 }
 .button{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 187%;
+    background-color: var(--accent-color);
+    color: white;
 }
 .info-item{
     list-style: none;
+}
+.info-work{
+
 }
 .submit{
     color: var(--main-color);
@@ -106,6 +116,7 @@ a{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 171%;
+    color: white;
 }
 .mail-addres{
     color: var(--second-color);
@@ -119,11 +130,26 @@ a{
     font-size: 14px;
     line-height: 171%;
 }
+.logo-footer{
+    color: var(--section-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+
+}
 .container{
     width: 1170px;
     margin: 0 auto;
     padding: 15px;
     outline: 2px solid red;
+}
+.people-team{
+    background-color: var(--section-color) ;
+}
+.container_busines{
+    background-color: var(--background-color);
+}
+.container_footer{
+    background-color: var(--background-color);
 }
 
 
