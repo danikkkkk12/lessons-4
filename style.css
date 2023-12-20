@@ -151,5 +151,9 @@ a{
 .container_footer{
     background-color: var(--background-color);
 }
+/* .flex-container{
+    display: flex;
+    justify-content: space-evenly;
+} */
 
 
