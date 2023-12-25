@@ -106,11 +106,15 @@ a{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-.images-team{
+.team-image{
+    display: flex;
     width: 370px;
 }
 .images-people{
     width: 270px;
+}
+.images-team{
+    padding-right: 30px;
 }
 .footer-address{
     font-family: 'Roboto', sans-serif;
@@ -154,6 +158,10 @@ a{
     background-color: var(--background-color);
 }
 .info-work{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.caption{
     margin-top: 94px;
     margin-bottom: 50px;
 }
