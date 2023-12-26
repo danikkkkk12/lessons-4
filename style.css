@@ -183,12 +183,9 @@ a {
     width: 270px;
 }
 
-.images-team {}
-
-/* .flex-container {
+.images-team {
     display: block;
-    justify-content: center;
-} */
+}
 
 .footer-address {
     font-family: 'Roboto', sans-serif;
