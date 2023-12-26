@@ -36,16 +36,18 @@ a {
 
 .header-list {
     list-style: none;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px; */
+    padding-left: 453px;
+    padding-right: 866px;
+    gap: 50px;
+    justify-content: flex-start;
+    display: flex;
 }
 
 .header-info {
-    /* display: flex;
-    justify-content: flex-end; */
+    justify-content: flex-end;
+    display: flex;
     list-style: none;
+    gap: 50px;
 }
 
 .nav-mail {
@@ -185,6 +187,10 @@ a {
 
 .images-team {
     display: block;
+    padding-right: 30px;
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 .footer-address {
