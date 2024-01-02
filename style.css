@@ -190,6 +190,9 @@ a {
 }
 
 .info-team {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     list-style: none;
 }
 
