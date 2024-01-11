@@ -140,10 +140,13 @@ a {
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
+
 /* .title_container{
     display: flex;
     justify-content: center;
 } */
+.title_btn_container {}
+
 .button {
     display: flex;
     justify-content: center;
@@ -162,13 +165,15 @@ a {
     padding: 10px 32px;
     cursor: pointer;
 }
-.btn_container{
+
+.btn_container {
     display: flex;
     justify-content: center;
 }
+
 .info-item {
     list-style: none;
-    
+
 }
 
 .info-work {}
@@ -203,7 +208,8 @@ a {
     margin-bottom: 94px;
     background-color: var(--logo-color);
 }
-.info-list{
+
+.info-list {
     display: flex;
 }
 
