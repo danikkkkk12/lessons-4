@@ -140,6 +140,12 @@ a {
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
+.title_2{
+    color: var(--section-color);
+    font-size: 44px;
+    text-align: center;
+    margin: 0;
+}
 
 /* .title_container{
     display: flex;
@@ -173,6 +179,7 @@ a {
 
 .info-item {
     list-style: none;
+    flex-basis: calc((100% - 20px) / 4);
 
 }
 
@@ -211,6 +218,8 @@ a {
 
 .info-list {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 .caption {
