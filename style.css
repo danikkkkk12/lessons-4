@@ -129,6 +129,7 @@ a {
 .info-work {
     margin-top: 94px;
     margin-bottom: 94px;
+    margin-left: 145px;
 }
 
 .title {
@@ -213,6 +214,7 @@ a {
     margin-bottom: 94px;
     background-color: var(--logo-color);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -234,16 +236,16 @@ a {
 }
 
 .people-team {
-    /* display: flex;
-    justify-content: center; */
     background-color: var(--section-color);
-
+    background-size: cover;
 }
 
 .team-caption {
     color: var(--main-color);
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 .name-people {
@@ -274,12 +276,13 @@ a {
 
 }
 
-.images-people {
+.cards-people {
     display: flex;
     gap: 30px;
     padding-right: 30px;
-    width: 270px;
-
+}
+.images-people{
+    width: 263px;
 }
 
 .images-team {
