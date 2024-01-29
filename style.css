@@ -183,8 +183,6 @@ a {
 
 }
 
-.info-work {}
-
 .submit {
     color: var(--main-color);
     font-family: 'Roboto', sans-serif;
@@ -278,6 +276,7 @@ a {
 
 .images-people {
     display: flex;
+    gap: 30px;
     padding-right: 30px;
     width: 270px;
 
