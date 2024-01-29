@@ -237,7 +237,7 @@ a {
 
 .people-team {
     background-color: var(--section-color);
-    background-size: cover;
+    width: 1600px;
 }
 
 .team-caption {
@@ -278,6 +278,9 @@ a {
 
 .cards-people {
     display: flex;
+    justify-content: center;
+    margin-right: 215px;
+    margin-left: 215px;
     gap: 30px;
     padding-right: 30px;
 }
@@ -303,6 +306,7 @@ a {
     font-size: 14px;
     line-height: 171%;
     color: white;
+    margin-bottom: 9px;
 }
 
 .mail-addres {
@@ -310,6 +314,7 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 171%;
+    margin-bottom: 9px;
 }
 
 .telephone-addres {
@@ -328,6 +333,8 @@ a {
 
 .container_footer {
     background-color: var(--background-color);
+    width: 1600px;
+    padding-left: 190px;
 }
 
 /* ------------------------------------------------------------footer-------------------------------------------------------------------- */
