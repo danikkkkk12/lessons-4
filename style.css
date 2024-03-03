@@ -11,9 +11,12 @@
     --second-color: #757575;
     --section-color: #F5F4FA;
     --logo-color: #ffffff99;
+    --white-color: #fff;
     --main-background-color: #212121;
     --team-last-color: #000000;
-
+    /* fonts */
+    --roboto-fonts: 'Roboto', sans-serif;
+    --raleway-fonts: 'Raleway', sans-serif;
 }
 
 /* ------------------------------------------------------------header-------------------------------------------------------------------- */
@@ -43,7 +46,7 @@ a {
 
 .header-logo {
     color: var(--team-last-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--raleway-fonts);
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -76,7 +79,7 @@ a {
 
 .nav-mail {
     color: var(--accent-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -86,7 +89,7 @@ a {
 
 .nav-telephone {
     color: var(--second-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -96,7 +99,7 @@ a {
 
 .nav-link {
     color: var(--main-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -107,7 +110,7 @@ a {
 
 .active {
     color: var(--accent-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -133,7 +136,7 @@ a {
 }
 
 .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     margin-top: 200px;
     margin-bottom: 280px;
     color: #FFF;
@@ -144,6 +147,7 @@ a {
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-left: -70px;
 }
 
 .title_2 {
@@ -151,11 +155,12 @@ a {
     font-size: 44px;
     text-align: center;
     margin-top: -272px;
+    margin-left: -60px;
 }
 
 
 .button {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
 
     line-height: 187%;
     background-color: var(--accent-color);
@@ -176,6 +181,7 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-left: -70px;
 }
 
 .info-item {
@@ -186,14 +192,14 @@ a {
 
 .submit {
     color: var(--main-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     padding: 0px 30px;
 }
 
 .info-text {
     color: var(--second-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     line-height: 171%;
     padding: 10px 30px;
@@ -228,7 +234,7 @@ a {
 
 .caption {
     color: var(--main-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 36px;
     text-align: center;
     padding-top: 0;
@@ -238,11 +244,12 @@ a {
 .people-team {
     background-color: var(--section-color);
     width: 1600px;
+    padding: 0;
 }
 
 .team-caption {
     color: var(--main-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 36px;
     margin-top: 94px;
     margin-bottom: 50px;
@@ -250,7 +257,7 @@ a {
 
 .name-people {
     color: var(--main-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 16px;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -259,32 +266,40 @@ a {
 
 .paragraph-people {
     color: var(--second-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 16px;
     padding-bottom: 30px;
     text-align: center;
 }
 
 .team-caption {
+    color: var(--main-color);
+    font-family: var(--roboto-fonts);
     text-align: center;
     margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    margin-left: -50px;
 }
 
 .team-image {
     display: flex;
     width: 370px;
-
+    margin-left: 42px;
 }
 
 .cards-people {
     display: flex;
     justify-content: center;
     margin-right: 215px;
-    margin-left: 215px;
+    margin-left: 170px;
     gap: 30px;
     padding-right: 30px;
 }
-.images-people{
+
+.images-people {
     width: 263px;
 }
 
@@ -297,12 +312,34 @@ a {
 
 }
 
+/* ----------------------------------------section 4---------------------------------------------------- */
+.regular_client {
+    width: 1170px;
+    height: 184px;
+}
+
+.client_h2 {
+    color: var(--main-color);
+    font-family: var(--roboto-fonts);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.client_list {
+    display: flex;
+    list-style: none;
+}
+
 /* ------------------------------------------------------------main-------------------------------------------------------------------- */
 
 /* ------------------------------------------------------------footer-------------------------------------------------------------------- */
 
 .footer-address {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     line-height: 171%;
     color: white;
@@ -311,7 +348,7 @@ a {
 
 .mail-addres {
     color: var(--second-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     line-height: 171%;
     margin-bottom: 9px;
@@ -319,16 +356,16 @@ a {
 
 .telephone-addres {
     color: var(--second-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto-fonts);
     font-size: 14px;
     line-height: 171%;
 }
 
 .logo-footer {
     color: var(--section-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--raleway-fonts);
     font-size: 26px;
-
+    margin-top: 60px;
 }
 
 .container_footer {
@@ -337,4 +374,17 @@ a {
     padding-left: 190px;
 }
 
+.footer_name {
+    color: var(--white-color);
+    font-family: var(--roboto-fonts);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+}
+.footer_section_icon{
+    margin-top: -120px;
+    margin-left: 516px;
+}
 /* ------------------------------------------------------------footer-------------------------------------------------------------------- */
